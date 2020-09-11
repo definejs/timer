@@ -1,0 +1,14 @@
+{
+  "name": "@definejs/timer",
+  "version": "0.1.0",
+  "description": "计时器",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "micty",
+  "email": "mictydeng@qq.com",
+  "license": "MIT",
+  "dependencies": {
+    
+  }
+}
