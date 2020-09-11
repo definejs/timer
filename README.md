@@ -11,7 +11,10 @@ const timer = new Timer();
 timer.start();
 
 setTimeout(() => {
-    let info = timer.stop();    //停止计时，并以分钟为单位对耗时进行转换。
+    //等同于：
+    //let info = timer.stop('ms');
+    let info = timer.stop();        //停止计时，并以毫秒为单位对耗时进行转换。
+    
 
     console.log(info);
 
