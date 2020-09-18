@@ -107,3 +107,5 @@ class Timer {
         meta.list = [];
     }
 }
+
+module.exports = Timer;

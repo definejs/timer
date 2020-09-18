@@ -1,6 +1,6 @@
 {
   "name": "@definejs/timer",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "计时器",
   "main": "index.js",
   "scripts": {},
