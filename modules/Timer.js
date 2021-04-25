@@ -4,19 +4,32 @@
 
 
 const mapper = new Map();
+let idCounter = 0;
 
 class Timer {
     /**
     * 构造器。
     */
     constructor() {
+        let id = `definejs-Timer-${idCounter++}`;
+
         let meta = {
-            t0: 0,
-            list: [],
+            'id': id,
+            't0': 0,
+            'list': [],
         };
 
         mapper.set(this, meta);
+
+        Object.assign(this, {
+            'id': meta.id,
+        });
     }
+
+    // /**
+    // * 当前实例的 id。
+    // */
+    // id = ''
 
     /**
     * 开始计时。
